@@ -24,6 +24,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_SCREEN_HEIGHT := 1080
 TARGET_SCREEN_WIDTH := 720
 
+PRODUCT_PACKAGES += \
+CameraNextMod 
+
 # Device identifier
 PRODUCT_BRAND := coolpad
 PRODUCT_DEVICE := CP8298_I00
